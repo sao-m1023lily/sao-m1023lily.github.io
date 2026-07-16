@@ -1,56 +1,37 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Saori Morita (森田 早織)"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Welcome! I am **Saori Morita (森田 早織)**, a Ph.D. student in **Language and Information Sciences** at the **Graduate School of Arts and Sciences, the University of Tokyo**, and a **Research Fellow (DC1)** of the Japan Society for the Promotion of Science (JSPS). From March to September 2026, I am a **visiting scholar (J-1)** in the Department of Cognitive Sciences at the **University of California, Irvine**.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My research sits at the intersection of **neurolinguistics, speech and hearing sciences, computational linguistics, psycholinguistics, and natural language processing**. I am especially interested in **language disorders such as aphasia** — how word production breaks down, and what that can teach us about language in the brain. In my work I use **large language models (LLMs)** as computational models of impaired language, simulating aphasic word production and semantic paraphasia to test hypotheses that are hard to study in people alone.
 
-A data-driven personal website
+はじめまして。**森田 早織（Saori Morita）**と申します。東京大学大学院総合文化研究科 言語情報科学専攻の博士課程に在籍し、日本学術振興会特別研究員（DC1）として研究を行っています。2026年3月から9月まで、カリフォルニア大学アーバイン校 認知科学部の短期客員研究員（J-1ビザ）として滞在予定です。
+
+専門は**神経言語学・聴覚言語科学・計算言語学・心理言語学・自然言語処理**で、とくに**失語症**における単語産出のメカニズムに関心があります。**大規模言語モデル（LLM）**を失語症の計算モデルとして用い、失語症話者の単語産出や意味性錯語のシミュレーションを通じて、言語と脳の関係を探っています。
+
+Research interests / 研究テーマ
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+* **Neurolinguistics & Speech and Hearing Sciences** — 神経言語学・聴覚言語科学
+* **Computational Linguistics & Psycholinguistics** — 計算言語学・心理言語学
+* **Natural Language Processing** — 自然言語処理
+* Modeling **aphasia** and impaired word production with large language models — 大規模言語モデルによる失語症・単語産出のモデリング
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
+Current work / 現在の研究
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+My doctoral project, funded by a JSPS DC1 fellowship, is **"Analyzing Speech Patterns in Aphasia through Large Language Model Simulation."** I ask whether the errors that LLMs make when they are perturbed — for example, through neuroscience-inspired synaptic pruning — resemble the speech patterns of people with Broca's and Wernicke's aphasia, and what that resemblance reveals about how language is represented and produced.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+博士課程では、JSPS特別研究員奨励費の助成のもと、「**失語症者の発話パターン分析：言語モデルによる再現を通じて**」という研究課題に取り組んでいます。神経科学に着想を得た手法で言語モデルに摂動を加えたときに生じる誤りが、ブローカ失語・ウェルニッケ失語の発話パターンとどこまで似ているのかを検証しています。
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Get in touch / 連絡先
+======
+Feel free to reach out about research, collaborations, or my experience navigating graduate school and study abroad. You can find my full academic record on the [CV](/cv/) page, and read about my experiences on the [Blog](/year-archive/).
 
-**Markdown generator**
+研究や共同研究のご相談、また大学院・留学に関する経験談など、お気軽にご連絡ください。詳しい経歴は[CV](/cv/)ページ、これまでの経験談は[Blog](/year-archive/)ページをご覧ください。
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+📫 **msaori6012@g.ecc.u-tokyo.ac.jp**
