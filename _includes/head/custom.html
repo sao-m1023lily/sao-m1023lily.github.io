@@ -34,6 +34,9 @@
   .greedy-nav .visible-links { display: flex; align-items: center; width: 100%; }
   .greedy-nav .visible-links li { display: block; flex: 0 0 auto; }
   .greedy-nav .visible-links #lang-toggle { margin-left: auto; }
+  /* When the hamburger is shown (narrow screens), inset the items so the theme
+     button isn't hidden behind the absolutely-positioned hamburger button. */
+  .greedy-nav button:not(.hidden) ~ .visible-links { padding-right: 3.5rem; }
 </style>
 <script>
   /* Set the initial language early to avoid a flash of the wrong language. */
