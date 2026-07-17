@@ -26,6 +26,9 @@
   html[data-lang="ja"] span.lang-ja,
   html[data-lang="ja"] a.lang-ja { display: inline; }
   #lang-toggle a { cursor: pointer; font-weight: bold; }
+  /* Make in-content section headings one size smaller than the page title (25px -> 20px). */
+  .page__content h1,
+  .archive h1:not(.page__title) { font-size: 1.25em; }
 </style>
 <script>
   /* Set the initial language early to avoid a flash of the wrong language. */
