@@ -33,22 +33,4 @@ This is a starter draft based on your CV. Replace the details below with your ow
 ## 留学前にどんなことをしていたか
 
 
----
-
-## Where it started
-
-Looking back, my first taste of research was in high school, presenting at science research competitions. Winning a couple of awards taught me how much fun it is to ask a question and then actually test it.
-
-In university I studied English communication, but I became fascinated by the language of people with aphasia, and wrote my undergraduate thesis on comparative adjectives. That path eventually led me to graduate school at the University of Tokyo, connecting language, the brain, and large language models.
-
-*(Add why you chose this field, and any turning points.)*
-
-## Applying for the DC1 fellowship
-
-Before starting my PhD, I applied for the JSPS Research Fellowship for Young Scientists (DC1). Rewriting my research proposal again and again — and learning to put the significance of my work into words — was hard, but that process became a foundation for me as a researcher.
-
-*(Sharing what was difficult or what worked would really help future applicants.)*
-
-## What's next
-
-Right now I'm working on simulating the speech patterns of aphasia using large language models. My hope is to shed even a little light on how language is represented and produced in the brain.
+pe is to shed even a little light on how language is represented and produced in the brain.
