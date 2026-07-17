@@ -21,9 +21,9 @@ CV → 📄 [Open]({{ base_path }}/files/saorimorita_CV.pdf)
 Education
 ======
 * **Ph.D. student**, Language and Information Sciences, Graduate School of Arts and Sciences, **The University of Tokyo**, 2025.03 – present
-* **M.A.**, Language and Information Sciences, Graduate School of Arts and Sciences, **The University of Tokyo**, 2023.04 – 2025.03
+* **M.A. (Arts)**, Language and Information Sciences, Graduate School of Arts and Sciences, **The University of Tokyo**, 2023.04 – 2025.03
   * Thesis: *Simulating Aphasic Word Production with Large Language Models*
-* **B.A.**, English Communication, Department of British and American Studies, **Nagoya University of Foreign Studies**, 2019.04 – 2023.03
+* **B.A. (English)**, English Communication Program, Department of British and American Studies, **Nagoya University of Foreign Studies**, 2019.04 – 2023.03
   * Thesis: *Comparative Adjectives in Aphasia: Evidence from the Adler Aphasia Center Corpus*
 
 Research experiences
@@ -50,9 +50,9 @@ CV → 📄 [Open]({{ base_path }}/files/saorimorita_CV.pdf)
 学歴
 ======
 * **博士課程（在学中）**、東京大学大学院総合文化研究科 言語情報科学専攻、2025.03 – 現在
-* **修士（言語情報科学）**、東京大学大学院総合文化研究科 言語情報科学専攻、2023.04 – 2025.03
+* **修士（学術）**、東京大学大学院総合文化研究科 言語情報科学専攻、2023.04 – 2025.03
   * 修士論文：大規模言語モデルによる失語症の単語産出シミュレーション
-* **学士（英語コミュニケーション）**、名古屋外国語大学 外国語学部 英米語学科、2019.04 – 2023.03
+* **学士（英語）**、名古屋外国語大学 外国語学部 英米語学科 英語コミュニケーション専攻、2019.04 – 2023.03
   * 卒業論文：英語を母語とする失語症話者と形容詞の比較表現
 
 研究歴・職歴
