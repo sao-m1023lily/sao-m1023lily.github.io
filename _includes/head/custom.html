@@ -29,6 +29,10 @@
   /* Make in-content section headings one size smaller than the page title (25px -> 20px). */
   .page__content h1,
   .archive h1:not(.page__title) { font-size: 1.25em; }
+  /* Push the language toggle and theme button to the right edge of the header. */
+  .greedy-nav .visible-links { display: flex; align-items: center; width: 100%; }
+  .greedy-nav .visible-links li { display: inline-block; }
+  .greedy-nav .visible-links #lang-toggle { margin-left: auto; }
 </style>
 <script>
   /* Set the initial language early to avoid a flash of the wrong language. */
