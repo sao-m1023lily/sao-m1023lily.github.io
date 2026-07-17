@@ -26,7 +26,7 @@ Education
 * **B.A.**, English Communication, Department of British and American Studies, **Nagoya University of Foreign Studies**, 2019.04 – 2023.03
   * Thesis: *Comparative Adjectives in Aphasia: Evidence from the Adler Aphasia Center Corpus*
 
-Research experience
+Research experiences
 ======
 * **Research Fellow (DC1)**, Japan Society for the Promotion of Science (JSPS), 2025.04 – 2028.03
 * **Visiting Scholar (J-1)**, Department of Cognitive Sciences, **University of California, Irvine**, 2026.03 – 2026.09
