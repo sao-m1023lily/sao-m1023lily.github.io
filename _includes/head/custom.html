@@ -28,22 +28,10 @@
   #lang-toggle a { cursor: pointer; font-weight: bold; }
 </style>
 <script>
-  // Set the initial language as early as possible to avoid a flash of the wrong language.
-  (function () {
-    var l = 'en';
-    try { l = localStorage.getItem('site-lang') || 'en'; } catch (e) {}
-    document.documentElement.setAttribute('data-lang', l);
-  })();
-  // Toggle handler (event delegation so it works even if the nav moves the button).
-  document.addEventListener('click', function (e) {
-    var el = e.target.closest ? e.target.closest('#lang-toggle a') : null;
-    if (!el) return;
-    e.preventDefault();
-    var cur = document.documentElement.getAttribute('data-lang') === 'ja' ? 'ja' : 'en';
-    var next = cur === 'ja' ? 'en' : 'ja';
-    document.documentElement.setAttribute('data-lang', next);
-    try { localStorage.setItem('site-lang', next); } catch (e2) {}
-  });
+  /* Set the initial language early to avoid a flash of the wrong language. */
+  (function () { var l = 'en'; try { l = localStorage.getItem('site-lang') || 'en'; } catch (e) {} document.documentElement.setAttribute('data-lang', l); })();
+  /* Toggle handler (event delegation so it works even if the nav moves the button). */
+  document.addEventListener('click', function (e) { var el = e.target.closest ? e.target.closest('#lang-toggle a') : null; if (!el) { return; } e.preventDefault(); var cur = document.documentElement.getAttribute('data-lang') === 'ja' ? 'ja' : 'en'; var next = cur === 'ja' ? 'en' : 'ja'; document.documentElement.setAttribute('data-lang', next); try { localStorage.setItem('site-lang', next); } catch (e2) {} });
 </script>
 
 <!-- end custom head snippets -->
