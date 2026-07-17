@@ -23,7 +23,7 @@ repository               : "sao-m1023lily/myprofile"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Saori Morita"
   pronouns         : "she/her"
   bio              : "Ph.D. student in neurolinguistics & computational linguistics. JSPS Research Fellow (DC1). Visiting scholar at UC Irvine."
