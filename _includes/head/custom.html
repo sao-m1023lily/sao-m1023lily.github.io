@@ -34,6 +34,10 @@
   .greedy-nav .visible-links { display: flex; align-items: center; width: 100%; }
   .greedy-nav .visible-links li { display: block; flex: 0 0 auto; }
   .greedy-nav .visible-links #lang-toggle { margin-left: auto; }
+  /* A slightly larger profile photo on desktop. */
+  @media screen and (min-width: 64em) {
+    .author__avatar img { max-width: 200px; }
+  }
   /* When the hamburger is shown (narrow screens), inset the items so the theme
      button isn't hidden behind the absolutely-positioned hamburger button. */
   .greedy-nav button:not(.hidden) ~ .visible-links { padding-right: 3.5rem; }
