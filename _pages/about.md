@@ -11,6 +11,7 @@ redirect_from:
 <div class="lang-en" markdown="1">
 
 I'm a second-year Ph.D. student in Language and Information Sciences at The University of Tokyo, working with [Prof. Yohei Oseki](https://phiz.c.u-tokyo.ac.jp/~oseki/en/index.html).
+Since March 2026, I have been a Short-term Scholar in the Departments of Cognitive Sciences and Language Science at the University of California, Irvine, where I conduct research under the supervision of  [Prof. Gregory Hickok](https://sites.uci.edu/alns/).
 
 My research interests center on the mechanisms of human word and sentence processing, which I investigate through the lens of language disorders such as aphasia. I have also modeled these symptoms using LLMs, drawing on methods from natural language processing.
 
