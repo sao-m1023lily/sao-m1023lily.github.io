@@ -14,4 +14,36 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Bilingual language toggle (English default, 日本語 optional) -->
+<style>
+  .lang-ja { display: none; }
+  html[data-lang="ja"] .lang-en { display: none; }
+  html[data-lang="ja"] div.lang-ja,
+  html[data-lang="ja"] p.lang-ja { display: block; }
+  span.lang-ja, a.lang-ja { display: none; }
+  html[data-lang="ja"] span.lang-en,
+  html[data-lang="ja"] a.lang-en { display: none; }
+  html[data-lang="ja"] span.lang-ja,
+  html[data-lang="ja"] a.lang-ja { display: inline; }
+  #lang-toggle a { cursor: pointer; font-weight: bold; }
+</style>
+<script>
+  // Set the initial language as early as possible to avoid a flash of the wrong language.
+  (function () {
+    var l = 'en';
+    try { l = localStorage.getItem('site-lang') || 'en'; } catch (e) {}
+    document.documentElement.setAttribute('data-lang', l);
+  })();
+  // Toggle handler (event delegation so it works even if the nav moves the button).
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest ? e.target.closest('#lang-toggle a') : null;
+    if (!el) return;
+    e.preventDefault();
+    var cur = document.documentElement.getAttribute('data-lang') === 'ja' ? 'ja' : 'en';
+    var next = cur === 'ja' ? 'en' : 'ja';
+    document.documentElement.setAttribute('data-lang', next);
+    try { localStorage.setItem('site-lang', next); } catch (e2) {}
+  });
+</script>
+
 <!-- end custom head snippets -->
