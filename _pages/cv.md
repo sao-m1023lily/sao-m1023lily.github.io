@@ -9,7 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-A PDF version of my CV is available on request. / CV（PDF版）はご希望に応じてお送りします。
+<p style="margin: 0 0 0.6em;">📄 <a href="{{ base_path }}/files/saorimorita_CV.pdf">Open / download the PDF version（PDFで開く・ダウンロード）</a></p>
+
+<iframe src="{{ base_path }}/files/saorimorita_CV.pdf" width="100%" height="900px" style="border: 1px solid #ccc; border-radius: 4px;" title="Saori Morita CV (PDF)">
+  <p>Your browser can't display the embedded PDF. <a href="{{ base_path }}/files/saorimorita_CV.pdf">Download it here</a>. / PDFを表示できない場合は<a href="{{ base_path }}/files/saorimorita_CV.pdf">こちら</a>からご覧ください。</p>
+</iframe>
 
 Education / 学歴
 ======
